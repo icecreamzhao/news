@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>TrendRadar 热点日报</title>
+<style>
+:root { --bg: #fff; --text: #1a1a1a; --link: #2563eb; --border: #e5e7eb; --muted: #6b7280; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111827; --text: #e5e7eb; --link: #60a5fa; --border: #374151; --muted: #9ca3af; } }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 20px; background: var(--bg); color: var(--text); }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 24px; }
+.rss { display: inline-block; background: #f97316; color: #fff; padding: 4px 12px; border-radius: 4px; font-size: 13px; margin-bottom: 20px; }
+.rss a { color: #fff; }
+.day { padding: 10px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.day .date { font-weight: 600; }
+.day .count { color: var(--muted); font-size: 14px; }
+.tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 11px; margin-left: 6px; }
+.tag-morning { background: #dbeafe; color: #1d4ed8; }
+.tag-afternoon { background: #fef3c7; color: #b45309; }
+.tag-evening { background: #ede9fe; color: #6d28d9; }
+@media (prefers-color-scheme: dark) {
+  .tag-morning { background: #1e3a5f; color: #93c5fd; }
+  .tag-afternoon { background: #5c4b1a; color: #fcd34d; }
+  .tag-evening { background: #3b2677; color: #c4b5fd; }
+}
+</style>
+</head>
+<body>
+<h1>📡 TrendRadar 热点日报</h1>
+<p style="color: var(--muted)">21 个平台自动抓取 · AI 分析 · 每日三报 (8:30 / 12:30 / 19:30)</p>
+<p class="rss"><a href="feed.xml">📻 RSS 订阅</a></p>
+<div class="day"><span class="date"><a href="2026-06-08-morning.html">2026-06-08</a><span class="tag tag-morning">早</span></span><span class="count"></span></div>
+
+<p style="margin-top: 30px; color: var(--muted); font-size: 13px;">
+由 <a href="https://github.com/sansan0/TrendRadar">TrendRadar</a> 驱动 · 
+<a href="https://github.com/icecreamzhao/news">GitHub</a>
+</p>
+</body>
+</html>
