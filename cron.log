@@ -1700,3 +1700,228 @@ HTML报告已生成: output/html/2026-06-13/20-06.html
 ✅ 2026-06-13-evening.html  |  519 条  |  74 KB
 [3/3] 生成 RSS + 推送...
 ✅ RSS: 18 条目  |  8 KB
+[main c2e1f03] 2026-06-13 晚间
+ 4 files changed, 790 insertions(+), 18 deletions(-)
+ create mode 100644 2026-06-13-evening.html
+To github.com:icecreamzhao/news.git
+   2c08dfa..c2e1f03  main -> main
+   ✅ 已推送
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 RSS: https://icecreamzhao.github.io/news/feed.xml
+📋 首页: https://icecreamzhao.github.io/news/
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📡 TrendRadar 晚间抓取
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[1/3] 抓取热点...
+[92m11:30:01 - LiteLLM:WARNING[0m: get_model_cost_map.py:271 - LiteLLM: Failed to fetch remote model cost map from https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno -3] Temporary failure in name resolution. Falling back to local backup.
+[版本检查] 所有源均不可用
+[版本检查] 所有源均不可用
+配置文件加载成功: config/config.yaml
+[调度] timeline.yaml 加载成功: config/timeline.yaml
+未配置任何通知渠道
+============================================================
+版本检查
+============================================================
+远程程序版本: 获取失败
+远程配置清单: 获取失败或为空
+------------------------------------------------------------
+  主程序版本: 6.9.0 (无法比较)
+  config.yaml: 2.3.0 (未找到远程版本)
+  timeline.yaml: 1.2.0 (未找到远程版本)
+  frequency_words.txt: 1.1.0 (未找到远程版本)
+  ai_interests.txt: 1.1.0 (未找到远程版本)
+  ai_analysis_prompt.txt: 2.0.0 (未找到远程版本)
+  ai_translation_prompt.txt: 1.2.0 (未找到远程版本)
+============================================================
+TrendRadar v6.9.0 配置加载完成
+监控平台数量: 21
+时区: Asia/Shanghai
+本地环境，未启用代理
+[存储管理器] 使用本地存储后端 (数据目录: output)
+存储后端: local
+当前北京时间: 2026-06-18 19:30:04
+未配置任何通知渠道，将只进行数据抓取，不发送通知
+报告模式: current
+运行模式: 当前榜单模式（当前榜单匹配新闻 + 新增新闻区域 + 按时推送）
+配置的监控平台: ['今日头条', '百度热搜', '华尔街见闻', '澎湃新闻', 'bilibili 热搜', '财联社热门', '凤凰网', '贴吧', '微博', '抖音', '知乎', '36氪', 'IT之家', '掘金', 'GitHub Trending', 'V2EX', '少数派', '酷安', 'AI热点', 'Hacker News热榜', 'FreeBuf']
+开始爬取数据，请求间隔 2000 毫秒
+请求 toutiao 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=toutiao&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf6f00>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.24秒后重试...
+请求 toutiao 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=toutiao&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf7f50>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.71秒后重试...
+请求 toutiao 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=toutiao&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d042f0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 baidu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=baidu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04f80>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.55秒后重试...
+请求 baidu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=baidu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff8877a0c0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.43秒后重试...
+请求 baidu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=baidu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf75f0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 wallstreetcn-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=wallstreetcn-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf45f0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.20秒后重试...
+请求 wallstreetcn-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=wallstreetcn-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf5a60>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.93秒后重试...
+请求 wallstreetcn-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=wallstreetcn-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04890>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 thepaper 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=thepaper&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d05910>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.81秒后重试...
+请求 thepaper 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=thepaper&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf5d00>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.50秒后重试...
+请求 thepaper 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=thepaper&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf4b60>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 bilibili-hot-search 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=bilibili-hot-search&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf73b0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.61秒后重试...
+请求 bilibili-hot-search 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=bilibili-hot-search&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf7fb0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.23秒后重试...
+请求 bilibili-hot-search 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=bilibili-hot-search&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff8877a1b0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 cls-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=cls-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04650>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.34秒后重试...
+请求 cls-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=cls-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06840>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.26秒后重试...
+请求 cls-hot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=cls-hot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff8877a0f0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 ifeng 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ifeng&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf7350>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.97秒后重试...
+请求 ifeng 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ifeng&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf46b0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.61秒后重试...
+请求 ifeng 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ifeng&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf59d0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 tieba 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=tieba&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d07bf0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.95秒后重试...
+请求 tieba 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=tieba&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06090>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.88秒后重试...
+请求 tieba 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=tieba&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf5310>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 weibo 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=weibo&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf4b90>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.39秒后重试...
+请求 weibo 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=weibo&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf4140>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.64秒后重试...
+请求 weibo 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=weibo&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf7d10>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 douyin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=douyin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06d80>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.12秒后重试...
+请求 douyin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=douyin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d05220>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.10秒后重试...
+请求 douyin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=douyin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d07920>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 zhihu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=zhihu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81e8f320>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.71秒后重试...
+请求 zhihu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=zhihu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf79e0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.97秒后重试...
+请求 zhihu 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=zhihu&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf45f0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 36kr 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=36kr&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf55b0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.48秒后重试...
+请求 36kr 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=36kr&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d059d0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.13秒后重试...
+请求 36kr 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=36kr&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06a80>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 ithome 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ithome&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf5c40>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.85秒后重试...
+请求 ithome 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ithome&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf5ca0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.17秒后重试...
+请求 ithome 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=ithome&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf49b0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 juejin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=juejin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff88779fd0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.73秒后重试...
+请求 juejin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=juejin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d068a0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.82秒后重试...
+请求 juejin 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=juejin&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d05a00>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 github 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=github&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff88779e80>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.33秒后重试...
+请求 github 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=github&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff820bda00>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.04秒后重试...
+请求 github 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=github&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d07260>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 v2ex 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=v2ex&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06630>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.63秒后重试...
+请求 v2ex 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=v2ex&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d047d0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 5.41秒后重试...
+请求 v2ex 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=v2ex&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04890>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 sspai 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=sspai&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf7f50>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.35秒后重试...
+请求 sspai 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=sspai&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04710>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.69秒后重试...
+请求 sspai 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=sspai&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06bd0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 coolapk 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=coolapk&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04230>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.07秒后重试...
+请求 coolapk 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=coolapk&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d07d70>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.30秒后重试...
+请求 coolapk 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=coolapk&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d05520>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 aihot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=aihot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff8877a000>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 3.31秒后重试...
+请求 aihot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=aihot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff8877a4e0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.13秒后重试...
+请求 aihot 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=aihot&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d05220>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 hackernews 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=hackernews&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d07650>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.53秒后重试...
+请求 hackernews 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=hackernews&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d06390>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.75秒后重试...
+请求 hackernews 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=hackernews&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04fb0>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+请求 freebuf 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=freebuf&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81d04200>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 4.35秒后重试...
+请求 freebuf 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=freebuf&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81cf4590>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)")). 6.11秒后重试...
+请求 freebuf 失败: HTTPSConnectionPool(host='newsnow.busiyi.world', port=443): Max retries exceeded with url: /api/s?id=freebuf&latest (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81ebff80>: Failed to resolve 'newsnow.busiyi.world' ([Errno -3] Temporary failure in name resolution)"))
+成功: [], 失败: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', '36kr', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf']
+[本地存储] 处理完成：新增 0 条
+数据已保存到存储后端: local
+[RSS] 开始抓取 2 个 RSS 源...
+[RSS] Hacker News: 请求失败: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81dbf350>: Failed to resolve 'hnrss.org' ([Errno -3] Temporary failure in name resolution)"))
+[RSS] 雅虎财经: 请求失败: HTTPSConnectionPool(host='finance.yahoo.com', port=443): Max retries exceeded with url: /news/rssindex (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff81dbf9b0>: Failed to resolve 'finance.yahoo.com' ([Errno -3] Temporary failure in name resolution)"))
+[RSS] 抓取完成: 0 个源成功, 2 个失败, 共 0 条
+[本地存储] RSS 处理完成：新增 0 条
+[RSS] 数据已保存到存储后端
+[RSS] 当前榜单模式：没有 RSS 数据
+当前监控平台: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', '36kr', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf']
+[存储] 当天暂无数据
+没有找到当天的数据
+❌ 严重错误：无法读取刚保存的数据文件
+分析流程执行出错: 数据一致性检查失败：保存后立即读取失败
+[本地存储] 关闭数据库连接: output/news/2026-06-18.db
+[本地存储] 关闭数据库连接: output/rss/2026-06-18.db
+[2/3] 生成 HTML 报告...
+❌ 无新闻数据
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📡 TrendRadar 早间抓取
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[1/3] 抓取热点...
+配置文件加载成功: config/config.yaml
+[调度] timeline.yaml 加载成功: config/timeline.yaml
+未配置任何通知渠道
+============================================================
+版本检查
+============================================================
+远程程序版本: 6.10.0
+远程配置清单: 获取成功 (6 个文件)
+------------------------------------------------------------
+  主程序版本: 6.9.0 ⚠️ 需要更新
+  config.yaml: 2.3.0 ⚠️ 需要更新
+  timeline.yaml: 1.2.0 ✅ 已是最新
+  frequency_words.txt: 1.1.0 ✅ 已是最新
+  ai_interests.txt: 1.1.0 ✅ 已是最新
+  ai_analysis_prompt.txt: 2.0.0 ✅ 已是最新
+  ai_translation_prompt.txt: 1.2.0 ✅ 已是最新
+============================================================
+TrendRadar v6.9.0 配置加载完成
+监控平台数量: 21
+时区: Asia/Shanghai
+本地环境，未启用代理
+[存储管理器] 使用本地存储后端 (数据目录: output)
+存储后端: local
+当前北京时间: 2026-06-20 08:30:10
+未配置任何通知渠道，将只进行数据抓取，不发送通知
+报告模式: current
+运行模式: 当前榜单模式（当前榜单匹配新闻 + 新增新闻区域 + 按时推送）
+配置的监控平台: ['今日头条', '百度热搜', '华尔街见闻', '澎湃新闻', 'bilibili 热搜', '财联社热门', '凤凰网', '贴吧', '微博', '抖音', '知乎', '36氪', 'IT之家', '掘金', 'GitHub Trending', 'V2EX', '少数派', '酷安', 'AI热点', 'Hacker News热榜', 'FreeBuf']
+开始爬取数据，请求间隔 2000 毫秒
+获取 toutiao 成功（缓存数据）
+获取 baidu 成功（缓存数据）
+请求 wallstreetcn-hot 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=wallstreetcn-hot&latest. 4.35秒后重试...
+请求 wallstreetcn-hot 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=wallstreetcn-hot&latest. 5.79秒后重试...
+获取 wallstreetcn-hot 成功（最新数据）
+获取 thepaper 成功（最新数据）
+获取 bilibili-hot-search 成功（缓存数据）
+获取 cls-hot 成功（缓存数据）
+获取 ifeng 成功（缓存数据）
+获取 tieba 成功（缓存数据）
+获取 weibo 成功（缓存数据）
+获取 douyin 成功（缓存数据）
+获取 zhihu 成功（缓存数据）
+获取 36kr 成功（最新数据）
+获取 ithome 成功（缓存数据）
+获取 juejin 成功（缓存数据）
+获取 github 成功（缓存数据）
+获取 v2ex 成功（最新数据）
+获取 sspai 成功（缓存数据）
+获取 coolapk 成功（缓存数据）
+获取 aihot 成功（缓存数据）
+获取 hackernews 成功（缓存数据）
+获取 freebuf 成功（最新数据）
+成功: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', '36kr', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf'], 失败: []
+[本地存储] 处理完成：新增 482 条
+数据已保存到存储后端: local
+[RSS] 开始抓取 2 个 RSS 源...
+[RSS] Hacker News: 获取 20 条
+[RSS] 雅虎财经: 请求失败: 403 Client Error: Forbidden for url: https://finance.yahoo.com/news/rssindex
+[RSS] 抓取完成: 1 个源成功, 1 个失败, 共 20 条
+[本地存储] RSS 处理完成：新增 20 条
+[RSS] 数据已保存到存储后端
+[RSS] 新鲜度过滤：跳过 2 篇超过指定天数的旧文章（仍保留在数据库中）
+[RSS] 新鲜度过滤：跳过 2 篇超过指定天数的旧文章（仍保留在数据库中）
+[RSS] 检测到 18 条新增
+[RSS] 关键词分组统计：3/18 条匹配
+[存储] 从存储后端检测到 482 条新增标题
+当前监控平台: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', '36kr', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf']
+[存储] 已从存储后端读取 482 条标题
+读取到 482 个标题（已按当前监控平台过滤）
+[存储] 从存储后端检测到 482 条新增标题
+current模式：使用过滤后的历史数据，包含平台：['aihot', 'baidu', 'bilibili-hot-search', 'cls-hot', 'coolapk', 'douyin', 'freebuf', 'github', 'hackernews', 'ifeng', 'ithome', 'juejin', 'sspai', 'thepaper', 'tieba', 'toutiao', 'v2ex', 'wallstreetcn-hot', 'weibo', 'zhihu']
+当前榜单模式：最新时间 08-32，筛选出 482 条当前榜单新闻
+当前榜单模式：当天第一次爬取，482 条当前榜单新闻中有 143 条频率词匹配
+[AI] 正在进行 AI 分析...
+[AI] 模型: deepseek/​deepseek-v4-flash
+[AI] Key : sk-16******
+[AI] 参数: timeout=120, max_tokens=5000
+[AI] 分析完成
+[翻译] 开始翻译内容到 中文...
+[翻译] 共 3 条标题待翻译
+[翻译] 翻译完成: 3/3 成功
+新增热点过滤后：143 条保留（原始 482 条）
+HTML报告已生成: output/html/2026-06-20/08-32.html
+最新报告已更新: output/html/latest/current.html
+⚠️ 警告：通知功能已启用但未配置任何通知渠道，将跳过通知发送
+正在打开HTML报告: file:///home/ubuntu/tools/TrendRadar/output/html/2026-06-20/08-32.html
+[本地存储] 关闭数据库连接: output/news/2026-06-20.db
+[本地存储] 关闭数据库连接: output/rss/2026-06-20.db
+[2/3] 生成 HTML 报告...
+✅ 2026-06-20-morning.html  |  482 条  |  68 KB
+[3/3] 生成 RSS + 推送...
+✅ RSS: 19 条目  |  8 KB
