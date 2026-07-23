@@ -8484,3 +8484,110 @@ HTML报告已生成: output/html/2026-07-22/19-33.html
 ✅ 2026-07-22-evening.html  |  555 条  |  80 KB
 [3/3] 生成 RSS + 推送...
 ✅ RSS: 30 条目  |  13 KB
+[main efba690] 2026-07-22 晚间
+ 4 files changed, 838 insertions(+), 41 deletions(-)
+ create mode 100644 2026-07-22-evening.html
+To github.com:icecreamzhao/news.git
+   09df3cd..efba690  main -> main
+   ✅ 已推送
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 RSS: https://icecreamzhao.github.io/news/feed.xml
+📋 首页: https://icecreamzhao.github.io/news/
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📡 TrendRadar 早间抓取
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[1/3] 抓取热点...
+配置文件加载成功: config/config.yaml
+[调度] timeline.yaml 加载成功: config/timeline.yaml
+未配置任何通知渠道
+============================================================
+版本检查
+============================================================
+远程程序版本: 6.10.0
+远程配置清单: 获取成功 (6 个文件)
+------------------------------------------------------------
+  主程序版本: 6.9.0 ⚠️ 需要更新
+  config.yaml: 2.3.0 ⚠️ 需要更新
+  timeline.yaml: 1.2.0 ✅ 已是最新
+  frequency_words.txt: 1.1.0 ✅ 已是最新
+  ai_interests.txt: 1.1.0 ✅ 已是最新
+  ai_analysis_prompt.txt: 2.0.0 ✅ 已是最新
+  ai_translation_prompt.txt: 1.2.0 ✅ 已是最新
+============================================================
+TrendRadar v6.9.0 配置加载完成
+监控平台数量: 21
+时区: Asia/Shanghai
+本地环境，未启用代理
+[存储管理器] 使用本地存储后端 (数据目录: output)
+存储后端: local
+当前北京时间: 2026-07-23 08:30:12
+未配置任何通知渠道，将只进行数据抓取，不发送通知
+报告模式: current
+运行模式: 当前榜单模式（当前榜单匹配新闻 + 新增新闻区域 + 按时推送）
+配置的监控平台: ['今日头条', '百度热搜', '华尔街见闻', '澎湃新闻', 'bilibili 热搜', '财联社热门', '凤凰网', '贴吧', '微博', '抖音', '知乎', '36氪', 'IT之家', '掘金', 'GitHub Trending', 'V2EX', '少数派', '酷安', 'AI热点', 'Hacker News热榜', 'FreeBuf']
+开始爬取数据，请求间隔 2000 毫秒
+获取 toutiao 成功（最新数据）
+获取 baidu 成功（最新数据）
+获取 wallstreetcn-hot 成功（最新数据）
+请求 thepaper 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=thepaper&latest. 4.83秒后重试...
+获取 thepaper 成功（最新数据）
+获取 bilibili-hot-search 成功（最新数据）
+获取 cls-hot 成功（最新数据）
+请求 ifeng 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=ifeng&latest. 4.79秒后重试...
+获取 ifeng 成功（最新数据）
+获取 tieba 成功（最新数据）
+获取 weibo 成功（缓存数据）
+获取 douyin 成功（最新数据）
+获取 zhihu 成功（最新数据）
+请求 36kr 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=36kr&latest. 4.78秒后重试...
+请求 36kr 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=36kr&latest. 5.29秒后重试...
+请求 36kr 失败: 500 Server Error: Internal Server Error for url: https://newsnow.busiyi.world/api/s?id=36kr&latest
+获取 ithome 成功（最新数据）
+获取 juejin 成功（最新数据）
+获取 github 成功（缓存数据）
+获取 v2ex 成功（最新数据）
+获取 sspai 成功（最新数据）
+获取 coolapk 成功（最新数据）
+获取 aihot 成功（缓存数据）
+获取 hackernews 成功（最新数据）
+获取 freebuf 成功（最新数据）
+成功: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf'], 失败: ['36kr']
+[本地存储] 处理完成：新增 490 条
+数据已保存到存储后端: local
+[RSS] 开始抓取 2 个 RSS 源...
+[RSS] Hacker News: 获取 20 条
+[RSS] 雅虎财经: 请求失败: 403 Client Error: Forbidden for url: https://finance.yahoo.com/news/rssindex
+[RSS] 抓取完成: 1 个源成功, 1 个失败, 共 20 条
+[本地存储] RSS 处理完成：新增 20 条
+[RSS] 数据已保存到存储后端
+[RSS] 检测到 20 条新增
+[RSS] 关键词分组统计：4/20 条匹配
+[存储] 从存储后端检测到 490 条新增标题
+当前监控平台: ['toutiao', 'baidu', 'wallstreetcn-hot', 'thepaper', 'bilibili-hot-search', 'cls-hot', 'ifeng', 'tieba', 'weibo', 'douyin', 'zhihu', '36kr', 'ithome', 'juejin', 'github', 'v2ex', 'sspai', 'coolapk', 'aihot', 'hackernews', 'freebuf']
+[存储] 已从存储后端读取 490 条标题
+读取到 490 个标题（已按当前监控平台过滤）
+[存储] 从存储后端检测到 490 条新增标题
+current模式：使用过滤后的历史数据，包含平台：['aihot', 'baidu', 'bilibili-hot-search', 'cls-hot', 'coolapk', 'douyin', 'freebuf', 'github', 'hackernews', 'ifeng', 'ithome', 'juejin', 'sspai', 'thepaper', 'tieba', 'toutiao', 'v2ex', 'wallstreetcn-hot', 'weibo', 'zhihu']
+当前榜单模式：最新时间 08-32，筛选出 490 条当前榜单新闻
+当前榜单模式：当天第一次爬取，490 条当前榜单新闻中有 138 条频率词匹配
+[AI] 正在进行 AI 分析...
+[AI] 模型: deepseek/​deepseek-v4-flash
+[AI] Key : sk-16******
+[AI] 参数: timeout=120, max_tokens=5000
+[AI] 分析完成
+[翻译] 开始翻译内容到 中文...
+[翻译] 共 4 条标题待翻译
+[翻译] 翻译完成: 4/4 成功
+新增热点过滤后：138 条保留（原始 490 条）
+HTML报告已生成: output/html/2026-07-23/08-32.html
+最新报告已更新: output/html/latest/current.html
+⚠️ 警告：通知功能已启用但未配置任何通知渠道，将跳过通知发送
+正在打开HTML报告: file:///home/ubuntu/tools/TrendRadar/output/html/2026-07-23/08-32.html
+[本地存储] 关闭数据库连接: output/news/2026-07-23.db
+[本地存储] 关闭数据库连接: output/rss/2026-07-23.db
+[2/3] 生成 HTML 报告...
+✅ 2026-07-23-morning.html  |  490 条  |  69 KB
+[3/3] 生成 RSS + 推送...
+✅ RSS: 30 条目  |  13 KB
